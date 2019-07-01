@@ -4,7 +4,7 @@ public class Lab7 {
 	private static Scanner scan = new Scanner(System.in);
 
 		public static void main(String[] args) {		
-			String name; // Valid entries: [A-Z][A-Za-z]{1,29}
+		String name; // Valid entries: [A-Z][A-Za-z]{1,29}
 	        String email; // ([A-Za-z0-9]{5,30})@([A-Za-z0-9]{5,10})\.[A-Za-z0-9]{2,3}
 	        String phone; // \d{3}-\d{3}-\d{4}
 	        String date; // \d{2}\/\d{2}\/\d{4}
