@@ -14,7 +14,7 @@ public class Lab7 {
 	        
 	               
 	        
-	        do {  				//Name
+	        do {  		   //Name
 	            valid = false; //Set to "false" in order to ensure no false positives
 	            System.out.println("Please type in your name: ");
 	            name = scan.nextLine();
@@ -25,7 +25,7 @@ public class Lab7 {
 	        } while (!valid); //Close "Name" loop
 	        
 	        
-	        do { 				//Emails
+	        do { 		    //Emails
 	            valid = false;  //Set to "false" in order to ensure no false positives
 	            System.out.println("Please type in your email: ");
 	            email = scan.nextLine();
@@ -36,7 +36,7 @@ public class Lab7 {
 	        } while (!valid); 	//Close "Emails" loop
 	        
 	        
-	        do { 				//Phone Numbers
+	        do { 		    //Phone Numbers
 	            valid = false;  //Set to "false" in order to ensure no false positives
 	            System.out.println("Please type in your phone number. Use this format: ###-###-####: ");
 	            phone = scan.nextLine();
@@ -47,7 +47,7 @@ public class Lab7 {
 	        } while (!valid); //Close "Phone Numbers" loop
 	        
 	        
-	        do { 				//Dates
+	        do { 		    //Dates
 	            valid = false;  //Set to "false" in order to ensure no false positives
 	            System.out.println("Please enter your birthday. Use this format: mm/dd/yyyy: ");
 	            date = scan.nextLine();
